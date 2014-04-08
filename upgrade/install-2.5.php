@@ -18,6 +18,5 @@ function upgrade_module_2_5($module)
 			unlink($module_path.$file);
 		}
 	}
-	$module->_clearCache('editorial.tpl');
 	return true;
 }
