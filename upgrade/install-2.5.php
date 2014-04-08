@@ -19,5 +19,6 @@ function upgrade_module_2_5($module)
 		}
 	}
 
+	Tools::clearCache(Context::getContext()->smarty, $module->getTemplatePath('editorial.tpl'));
 	return true;
 }
