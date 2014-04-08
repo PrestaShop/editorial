@@ -18,5 +18,6 @@ function upgrade_module_2_5($module)
 			unlink($module_path.$file);
 		}
 	}
+
 	return true;
 }
