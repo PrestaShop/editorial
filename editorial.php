@@ -33,7 +33,7 @@ class Editorial extends Module
 	{
 		$this->name = 'editorial';
 		$this->tab = 'front_office_features';
-		$this->version = '2.5.2';
+		$this->version = '2.5.3';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 		$this->bootstrap = true;
@@ -323,8 +323,17 @@ class Editorial extends Module
 		return $this->display(__FILE__, 'editorial.tpl', $this->getCacheId());
 	}
 
+	public function hookdisplayTopColumn($params)
+	{
+		if (!isset($this->context->controller->php_self) || $this->context->controller->php_self != 'index')
+			return;
+		return $this->hookDisplayHome($params);
+	}
+
 	public function hookDisplayHeader()
 	{
+		if (!isset($this->context->controller->php_self) || $this->context->controller->php_self != 'index')
+			return;
 		$this->context->controller->addCSS(($this->_path).'css/editorial.css', 'all');
 	}
 }
