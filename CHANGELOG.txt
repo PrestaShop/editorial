@@ -1,0 +1,13 @@
+2014-04-22 18:58:25 +0200	// Changelog updated
+2014-04-18 10:07:02 +0200	[*] MO : Editorial enable hook displayTopColumn
+2014-04-17 12:12:57 +0200	[-] MO : editorial - Fix 1.5 ps_version_compliancy issue
+2014-04-15 13:50:44 +0200	// Version changed
+2014-04-15 11:59:36 +0200	[-] MO : editorial - Added missing img folder
+2014-04-08 10:07:32 +0200	// clearcache added
+2014-04-08 09:27:06 +0200	// wrong newline character
+2014-04-08 09:26:04 +0200	// small fix
+2014-04-08 09:22:49 +0200	// moved image to img
+2014-04-02 11:11:22 +0200	// cast return of install to bool
+2014-03-28 11:46:52 +0100	[*] MO : editorial, responsive homepage_logo
+2014-03-24 18:26:16 +0100	/ MO editorial : ps_versions_compliancy added
+2014-03-21 10:53:59 +0100	Initial commit
