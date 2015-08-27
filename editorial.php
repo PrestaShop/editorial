@@ -33,7 +33,7 @@ class Editorial extends Module
 	{
 		$this->name = 'editorial';
 		$this->tab = 'front_office_features';
-		$this->version = '2.5.5';
+		$this->version = '2.6.0';
 		$this->author = 'PrestaShop';
 		$this->need_instance = 0;
 		$this->bootstrap = true;
